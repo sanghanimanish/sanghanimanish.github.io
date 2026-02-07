@@ -1,51 +1,846 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manish Sanghani | Portfolio</title>
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+	<title>Manish | PHP Developer</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+	<link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+	<link rel="stylesheet" href="assets/css/aos.css">
+
+	<link rel="stylesheet" href="assets/css/ionicons.min.css">
+
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="assets/css/icomoon.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-gray-100 text-gray-900 font-sans">
 
-<header class="bg-green-600 text-white p-6">
-  <h1 class="text-3xl font-bold">Manish Sanghani</h1>
-  <p class="text-lg mt-1">Senior Backend Developer | Laravel & Shopify Apps</p>
-</header>
 
-<section class="p-6">
-  <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-  <p>Hello! I'm <strong>Manish Sanghani</strong>, a Senior Backend Developer with 8+ years of experience building scalable <strong>Laravel applications, Shopify apps, and cloud-based solutions</strong>.  
-  I specialize in backend APIs, payment & loyalty integrations, and production-ready code for high-traffic applications.  
-  I care about <strong>clean architecture, performance, and maintainable systems</strong>.</p>
-  <p class="mt-2">💻 Tech Stack: Laravel, PHP, Node.js | 🛒 Shopify Apps | ☁️ AWS, Docker | MySQL & Database Optimization</p>
-</section>
 
-<section class="p-6 bg-white">
-  <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-  <div class="grid md:grid-cols-3 gap-6">
-    <div class="p-4 border rounded shadow">
-      <h3 class="font-bold text-lg">Shopify Loyalty Rewards App</h3>
-      <p>Public Shopify app for points & coupon redemption. Optimized API performance by 35–40%.</p>
-    </div>
-    <div class="p-4 border rounded shadow">
-      <h3 class="font-bold text-lg">Capillary CRM Integration</h3>
-      <p>Middleware integrating Shopify & Magento with Capillary CRM. Real-time customer & order sync.</p>
-    </div>
-    <div class="p-4 border rounded shadow">
-      <h3 class="font-bold text-lg">Pine Labs Payment Extension</h3>
-      <p>Custom Shopify Payment Extension using GraphQL APIs with secure transaction workflows.</p>
-    </div>
-  </div>
-</section>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	
+	<!-- Main content -->
+	<!-- <div class="main-content"> -->
 
-<section class="p-6">
-  <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-  <p>Email: <a class="text-green-600" href="mailto:manishsanghani7@gmail.com">manishsanghani7@gmail.com</a></p>
-  <p>LinkedIn: <a class="text-green-600" href="https://www.linkedin.com/in/manishsanghani/">Manish Sanghani</a></p>
-  <p>GitHub: <a class="text-green-600" href="https://github.com/sanghanimanish">sanghanimanish</a></p>
-</section>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+			<div class="container">
+				<a class="navbar-brand" href="./"><span>M</span>anish</a>
+				<a class="navbar-brand" href="./"><span>S</span>anghani</a>
+				<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+					data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="oi oi-menu"></span> Menu
+				</button>
 
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<ul class="navbar-nav nav ml-auto">
+						<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+						<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+						<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+						<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+						<li class="nav-item">
+							<a href="#skills" class="nav-link"><span>Skills</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#project" class="nav-link"><span>Projects</span></a>
+						</li>
+						<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section class="hero-wrap js-fullheight">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+					<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+						<div class="text text-center">
+							<span class="subheading">Hey! I am</span>
+							<h1>Manish Sanghani</h1>
+							<h2>I'm a
+								<span class="txt-rotate" data-period="500"
+									data-rotate='[ "Website Developer.","PHP Developer.","Laravel Developer."]'></span>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+		</section>
+
+		<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+			<div class="container">
+				<div class="row d-flex no-gutters">
+					<div class="col-md-6 col-lg-6 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay"></div>
+							<div class="img d-flex  align-items-center"
+								style="background-image:url(images/photo.jpg);">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+									<p>
+									  Hi, I’m <strong>Manish Sanghani</strong>, a <strong>Senior Shopify Backend Developer</strong> with over <strong>8+ years of experience</strong> in building scalable, secure, and high-performance web applications.
+									</p>
+									<p>
+									  I specialize in <strong>Shopify App development</strong>, <strong>Node.js</strong>, and <strong>Laravel</strong>, with hands-on experience in creating public and custom Shopify apps, backend APIs, and cloud-based solutions using AWS. I’ve worked extensively on payment integrations, webhooks, OAuth authentication, and real-time data synchronization for high-traffic applications.
+									</p>
+									<p>
+									  I’m passionate about writing clean, maintainable code, optimizing performance, and designing backend systems that scale. I enjoy solving complex problems, mentoring developers, and collaborating with teams to build reliable, production-ready solutions.
+									</p>
+
+
+								<ul class="about-info about-info-one mt-4 px-md-0 px-2">
+									<li class=" info-item info-item-one"><span class="label">Name:</span> <span class="value"> &nbsp;Manish Sanghani</span></li>
+									<li class="info-item info-item-one clickable-item" onclick="window.location.href='mailto:manishsanghani7@gmail.com'"><span class="label">Email: </span> <span class="value">&nbsp;manishsanghani7@gmail.com</span></li>
+									<li class="info-item info-item-one clickable-item" onclick="window.location.href='tel:+8000519770'"><span class="label">Phone: </span> <span class="value">&nbsp;+91 8000519770</span></li>
+									<li class="info-item info-item-one clickable-item" onclick="window.open('https://wa.me/8000519770','_blank')">
+										<span class="label">WhatsApp:</span> <span class="value">&nbsp;Chat with me</span>
+									</li>
+									<li class=" info-item info-item-one"><span class="label">Address: </span> <span class="value">&nbsp;Ahmedabad, Gujarat, India</span></li>
+									<li class=" info-item info-item-one"><span class="label">LinkedIn: </span>
+										<span class="value">
+											<a style="color: blue !important;" href="https://www.linkedin.com/in/manish-sanghani-laravel/" target="_blank">
+												&nbsp;Manish Sanghani
+											</a>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p><a href="Manish_Sanghani_Senior Backend Developer.pdf" download target="_blank"
+										class="btn btn-primary py-3 px-3" style="margin-right: 10px;"> <i
+											class="fa-solid fa-download"></i> Download CV</a>
+									<a href="Manish_Sanghani_Senior Backend Developer.pdf" target="_blank" class="btn btn-primary py-3 px-3"> <i
+											class="fa-solid fa-eye"></i> View CV</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-partner about-photo-moblie">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm ftco-animate">
+						<img src="images/photo.png" class="img-fluid" alt="image">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<nav id="navi">
+							<ul>
+								<li><a href="#education">Education</a></li>
+								<li><a href="#experience">Experience</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#project">Projects</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-9">
+						<div id="education" class="page one">
+							<h2 class="heading">Education</h2>
+							
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-graduation-cap fa-lg text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<span class="date">2010 – 2015</span>
+									<h2>Bachelor of Science in Information Technology (B.E)</h2>
+									<span class="position">Gujarat Technological University</span>
+								</div>
+							</div>
+						</div>
+
+						<div id="experience" class="page two">
+							<h2 class="heading">Experience</h2>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-city fa-lg text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<span class="date">June 2023 - March 2026</span>
+									<h2>Senior Shopify App & Laravel Developer (Backend)</h2>
+									<span class="position">Metizsoft Solutions, Ahmedabad</span>
+									<p>Identifying areas for modification in existing programs and subsequently 
+										developing these modifications. Writing and implementing efficient code. 
+										Maintaining and upgrading existing systems.</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-city fa-lg text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<span class="date">March 2021 – June 2023</span>
+									<h2>Laravel / Backend Developer </h2>
+									<span class="position">Simplior Technologies, Ahmedabad</span>
+									<p>Built and maintained Laravel and PHP projects.
+									   Collaborated with cross-functional teams to deliver robust, 
+									   client-focused web solutions.</p>
+								</div>
+							</div>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-city fa-lg text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<span class="date">June 2016 – March 2021 </span>
+									<h2>PHP / CodeIgniter Developer </h2>
+									<span class="position">ANJ Webtech | Nexzen Solutions, Ahmedabad</span>
+									<p>Learn basic fundamentals of PHP and its frameworks and worked on PHP projects</p>
+								</div>
+							</div>
+							
+						</div>
+						<div id="skills" class="page three">
+							<h2 class="heading">Skills</h2>
+							<div class="row progress-circle mb-5">
+
+								<div class="col-lg-3 mb-3">
+									<div class="bg-white rounded-lg shadow p-3">
+
+										<h2 class="h5 font-weight-bold text-center mb-3"><i class="fab fa-laravel text-danger me-2"></i> Laravel</h2>
+										<!-- Progress bar 1 -->
+										<div class="progress mx-auto mb-3" data-value='90'>
+											<span class="progress-left">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<span class="progress-right">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<div
+												class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+												<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+											</div>
+										</div>
+										<!-- END -->
+									</div>
+								</div>
+
+								<div class="col-lg-3 mb-3">
+									<div class="bg-white rounded-lg shadow p-3">
+										<h2 class="h5 font-weight-bold text-center mb-3"><i class="fab fa-php text-primary me-2"></i> PHP</h2>
+										<div class="progress mx-auto mb-3" data-value='90'>
+											<span class="progress-left">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<span class="progress-right">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<div
+												class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+												<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+											</div>
+										</div>
+										<!-- END -->
+									</div>
+								</div>
+
+								<div class="col-lg-3 mb-3">
+									<div class="bg-white rounded-lg shadow p-3">
+										<h2 class="h5 font-weight-bold text-center mb-3"><i class="fas fa-database text-primary me-2"></i> MySQL</h2>
+
+										<div class="progress mx-auto mb-3" data-value='85'>
+											<span class="progress-left">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<span class="progress-right">
+												<span class="progress-bar border-primary"></span>
+											</span>
+											<div
+												class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+												<div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+											</div>
+										</div>
+										<!-- END -->
+									</div>
+								</div>
+								
+								<div class="col-lg-3 mb-3">
+								  <div class="bg-white rounded-lg shadow p-3">
+
+								    <h2 class="h5 font-weight-bold text-center mb-3">
+								      <i class="fab fa-shopify text-success me-2"></i> Shopify
+								    </h2>
+
+								    <div class="progress mx-auto mb-3" data-value="85">
+								      <span class="progress-left">
+								        <span class="progress-bar border-success"></span>
+								      </span>
+								      <span class="progress-right">
+								        <span class="progress-bar border-success"></span>
+								      </span>
+								      <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								        <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+								      </div>
+								    </div>
+
+								  </div>
+								</div>
+	
+							</div>
+							<div class="row">
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-server text-success me-2"></i> RESTful APIs</h3>
+										<div class="progress">
+											<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+												aria-valuemin="0" aria-valuemax="100" style="width:85%">
+												<span>85%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-code text-primary me-2"></i> MVC</h3>
+										<div class="progress">
+											<div class="progress-bar color-8" role="progressbar" aria-valuenow="95"
+												aria-valuemin="0" aria-valuemax="100" style="width:95%">
+												<span>95%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fab fa-js text-warning me-2"></i> JavaScript</h3>
+										<div class="progress">
+											<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
+												aria-valuemin="0" aria-valuemax="100" style="width:80%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fab fa-github text-dark me-2"></i> Git / GitHub</h3>
+										<div class="progress">
+											<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
+												aria-valuemin="0" aria-valuemax="100" style="width:80%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-credit-card text-info me-2"></i> Payment Gateway Integration</h3>
+										<div class="progress">
+											<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+												aria-valuemin="0" aria-valuemax="100" style="width:80%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-lightbulb text-warning me-2"></i> Problem Solving</h3>
+										<div class="progress">
+											<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
+												aria-valuemin="0" aria-valuemax="100" style="width:85%">
+												<span>85%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-users text-success me-2"></i> Team Collaboration</h3>
+										<div class="progress">
+											<div class="progress-bar color-5" role="progressbar" aria-valuenow="88"
+												aria-valuemin="0" aria-valuemax="100" style="width:88%">
+												<span>88%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-sync-alt text-secondary me-2"></i> Adaptability</h3>
+										<div class="progress">
+											<div class="progress-bar color-6" role="progressbar" aria-valuenow="90"
+												aria-valuemin="0" aria-valuemax="100" style="width:90%">
+												<span>90%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-brain text-danger me-2"></i> Quick Learner</h3>
+										<div class="progress">
+											<div class="progress-bar color-7" role="progressbar" aria-valuenow="90"
+												aria-valuemin="0" aria-valuemax="100" style="width:90%">
+												<span>90%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3><i class="fas fa-code text-primary me-2"></i> Clean Code Practices</h3>
+										<div class="progress">
+											<div class="progress-bar color-8" role="progressbar" aria-valuenow="90"
+												aria-valuemin="0" aria-valuemax="100" style="width:90%">
+												<span>90%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div id="project" class="page four">
+							<h2 class="heading">Projects</h2>
+
+							<!-- Project 1 -->
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-snowflake text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<h2>Shopify Loyalty Rewards App | Laravel, Node.js, Shopify</h2>
+									<span class="position">SaaS Based Product</span>
+									<p>Integrated Checkout UI Extensions for seamless point redemption.</p>
+								</div>
+							</div>
+
+							<!-- Project 2 -->
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-store text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<h2>PineLabs Shopify Payment Extension | Node.js, GraphQL  </h2>
+									<span class="position">Shopify Payment Extension</span>
+									<p>Developed custom payment extension for secure POS and online transactions.</p>
+								</div>
+							</div>
+
+							<!-- Project 3 -->
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-globe text-white"></i>
+								</div>
+								<div class="text pl-3">
+									<h2>Chogori India</h2>
+									<span class="position">Shopify & Unicommerce Integration</span>
+									<p>Built real-time synchronization for orders, returns, and cancellations across multiple channels.</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section" id="services-section">
+			<div class="container-fluid px-md-5">
+				<div class="row justify-content-center py-5 mt-5">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<h1 class="big big-2">Services</h1>
+						<h2 class="mb-4">Services</h2>
+						<p>Providing modern web solutions, eCommerce platforms, and custom development services to meet your business needs.</p>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Web Development -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-code"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Development</h3>
+								<p>Custom website development with clean code and modern technologies.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- E-commerce Solutions -->
+					<!-- <div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-shopping-cart"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">E-commerce Solutions</h3>
+								<p>Building online stores with payment gateway integration and multi-vendor support.</p>
+							</div>
+						</div>
+					</div> -->
+
+					<!-- REST API Development -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-network-wired"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">REST API Development</h3>
+								<p>Creating secure and scalable APIs for web and mobile applications.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Freelancing -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-handshake"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Freelancing</h3>
+								<p>Providing professional web development services on a freelance basis.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Portfolio & Blog Website -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-laptop-code"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Portfolio & Blog Websites</h3>
+								<p>Developing personal and professional portfolio or blog websites.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Frontend Development -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fab fa-js-square"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Frontend Development</h3>
+								<p>Creating interactive and dynamic user interfaces using modern frontend frameworks.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Small Website Projects -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-globe"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Small Website Projects</h3>
+								<p>Quick development of small-scale websites for businesses and startups.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Website Issue Fixing -->
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<div class="services-1 shadow">
+							<span class="icon">
+								<i class="fas fa-tools"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Website Issue Fixing</h3>
+								<p>Debugging and fixing issues in existing websites for better performance and UX.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+					<div class="col-md-7 heading-section text-center ftco-animate">
+						<h1 class="big big-2">Contact</h1>
+						<h2 class="mb-4">Get in Touch</h2>
+					</div>
+				</div>
+
+				<div class="row d-flex contact-info mb-5">
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box text-center p-4 shadow clickable-item">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-map-signs"></span>
+							</div>
+							<div>
+								<h3 class="mb-4">Address</h3>
+								<p>Ahmedabad, Gujarat, India</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box text-center p-4 shadow clickable-item">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-phone2"></span>
+							</div>
+							<div>
+								<h3 class="mb-4">Contact Number</h3>
+								<p onclick="window.location.href='tel:+8000519770'">+91 8000519770</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box text-center p-4 shadow clickable-item">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-paper-plane"></span>
+							</div>
+							<div>
+								<h3 class="mb-4">Email Address</h3>
+								<p onclick="window.location.href='mailto:manishsanghani7@gmail.com'">manishsanghani7<br>@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+						<div class="align-self-stretch box text-center p-4 shadow clickable-item"
+							onclick="window.open('https://wa.me/918000519770','_blank')">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="icon-whatsapp"></span>
+							</div>
+							<div>
+								<h3 class="mb-4">WhatsApp</h3>
+								<p>Chat with me</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+					<div class="col-md-12 d-flex">
+						<div class="img" style="background-image: url(images/about.jpg);"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="ftco-footer ftco-section">
+			<div class="container">
+				<div class="row mb-5">
+					
+					<!-- Quick Links -->
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4 ml-md-4">
+							<h2 class="ftco-heading-2">Links</h2>
+							<ul class="list-unstyled">
+								<li><a href="./"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+								<li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+								<li><a href="#skills"><span class="icon-long-arrow-right mr-2"></span>Skills</a></li>
+								<li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li>
+								<li><a href="#project"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+								<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+								<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Services -->
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Services</h2>
+							<ul class="list-unstyled">
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Laravel Development</a></li>
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Codeigniter Development</a></li>
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>PHP Development</a></li>
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>REST API Development</a></li>
+								<li><a href="javascript:void(0)"><span class="icon-long-arrow-right mr-2"></span>Bug Fixing & Debugging</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Contact Info -->
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="ftco-heading-2">Have a Questions?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li>
+										<span class="icon icon-map-marker"></span>
+										<span class="text">Ahmedabad, Gujarat, India</span>
+									</li>
+									<li onclick="window.location.href='tel:+918000519770'" class="clickable-item">
+										<span class="icon icon-phone"></span>
+										<span class="text">+91 8000519770</span>
+									</li>
+									<li onclick="window.location.href='mailto:manishsanghani7@gmail.com'" class="clickable-item">
+										<span class="icon icon-envelope" style="margin-right: 10px;"></span>
+										<span class="text">&nbsp;manishsanghani7@gmail.com</span>
+									</li>
+									<li onclick='window.open("https://www.linkedin.com/in/manish-sanghani-laravel/", "_blank")' class="clickable-item">
+										<span class="icon icon-linkedin"></span>
+										<span class="text">Manish Sanghani</span>
+									</li>
+									<li onclick='window.open("https://wa.me/8000519770","_blank")' class="clickable-item">
+										<span class="icon icon-whatsapp"></span>
+										<span class="text">Chat on WhatsApp</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Copyright -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p style="font-size: 0.9rem; color: #555;">
+							&copy; <script>
+								document.write(new Date().getFullYear());
+							</script>
+							<strong>Manish Sanghani</strong>. All rights reserved.
+							Made with <i class="icon-heart text-danger" aria-hidden="true"></i>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+				<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+				<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+					stroke="#F96D00" />
+			</svg></div>
+
+		<!-- Rest of your page sections here -->
+	<!-- </div> -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/jquery.animateNumber.min.js"></script>
+	<script src="assets/js/scrollax.min.js"></script>
+
+	<script src="assets/js/main.js"></script>
+
+	<!-- SweetAlert2 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script>
+		document.getElementById('contactForm').addEventListener('submit', function(e) {
+			e.preventDefault();
+
+			let formData = new FormData(this);
+
+			// Show "Please wait..." popup
+			Swal.fire({
+				title: 'Please wait...',
+				text: 'Sending your message',
+				allowOutsideClick: false,
+				didOpen: () => {
+					Swal.showLoading(); // Show loading spinner
+				}
+			});
+
+			fetch('contact_process.php', {
+					method: 'POST',
+					body: formData
+				})
+				.then(response => response.json())
+				.then(data => {
+					Swal.close(); // Close loading popup
+
+					if (data.status === 'success') {
+						Swal.fire({
+							icon: 'success',
+							title: 'Message Sent!',
+							text: data.message,
+						});
+						document.getElementById('contactForm').reset();
+					} else {
+						Swal.fire({
+							icon: 'error',
+							title: 'Oops...',
+							html: data.message // allows clickable links if needed
+						});
+					}
+				})
+				.catch(error => {
+					Swal.close();
+					console.error('Error:', error);
+					Swal.fire({
+						icon: 'error',
+						title: 'Oops...',
+						text: 'Something went wrong while sending your message.'
+					});
+				});
+		});
+
+
+
+		document.addEventListener('DOMContentLoaded', function() {
+			const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+			const navbarCollapse = document.querySelector('#ftco-nav');
+
+			navLinks.forEach(link => {
+				link.addEventListener('click', () => {
+					if (navbarCollapse.classList.contains('show')) {
+						const toggler = document.querySelector('.navbar-toggler');
+						toggler.click(); // trigger the menu toggle
+					}
+				});
+			});
+		});
+	</script>
 </body>
-</html>
 
+
+</html>
